@@ -1,0 +1,187 @@
+.game {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+  padding: 10px;
+}
+
+.help {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  text-align: center;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  border: thin solid rgba(64, 0, 241, 0.287);
+  border-radius: 5px;
+}
+
+.right {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: thin solid rgb(0, 4, 252);
+  border-radius: 5px;
+}
+
+.star {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 45px;
+}
+
+.number {
+  background-color: rgb(163, 145, 145);
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus,
+.number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+  color: rgb(0, 0, 0);
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.dato {
+  border-radius: 5px;
+  border-bottom: solid green;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  position: center;
+  margin-left: 150px;
+}
+.dato:hover {
+  border-bottom: solid rgb(21, 44, 255);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: center;
+  margin-left: 150px;
+}
+
+.lista {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.158);
+  width: 100%;
+  border-radius: 10px;
+  color: #ddd;
+  border: #ddd;
+}
+
+.contenedor {
+  background-color: rgb(233, 30, 30);
+  border-radius: 10px;
+  width: 700px;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+.titulo {
+  font-size: 20px;
+  color: #ddd;
+  text-align: center;
+}
+body {
+  background-image: url("./paisaje.jpg");
+}
+
+input {
+  background: rgb(250, 246, 246);
+  display: block;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
+  border-width: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  transform: translateX(0);
+}
+
+.dato {
+  border-radius: 5px;
+  border-bottom: solid green;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  position: center;
+  margin-left: 150px;
+}
+
+.lista {
+  text-align: center;
+ 
+  width: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-register {
+  width: 600px;
+  background: #4151e671;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 56px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #0f4e8d;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #dddee2;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.form-register .boton {
+  width: 100%;
+  background: #fffb25c7;
+  border: none;
+  padding: 15px;
+  color: white;
+  margin: 30px 0;
+  font-size: 20px;
+}
